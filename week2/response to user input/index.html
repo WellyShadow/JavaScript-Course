@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- <button id = 'myButton'>Click me!</button> -->
+    <input  id = 'searchBox' type="text">
+    <script>
+        // const button = document.querySelector('#myButton');
+        // button.addEventListener('click', () => {
+        //     alert('Hello world')
+        // })
+        const searchBox = document.querySelector('#searchBox');
+
+        searchBox.addEventListener('keyup', () => {
+            console.log('event triggered')
+        })
+    </script>  
+</body>
+</html>
