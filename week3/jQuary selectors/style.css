@@ -1,0 +1,11 @@
+.highlight{
+    background-color: yellow;
+}
+
+.required-field{
+    border: 2px solid red;
+}
+
+.active{
+    background:green;
+}
